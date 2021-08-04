@@ -103,37 +103,7 @@ body {
   padding-right: 0.2rem;
 }
 
-.login-form{
-  margin-top: .6rem;
-  margin-bottom: .5rem;
-  width: 17rem;
-  border: none;
-  height: 2.2rem;
-  padding-left: .5rem;
-}
 
-.submit-loc{
-  color: var(--mid-blue);
-  margin-top: 10px;
-  margin-left: calc(100% - 5.5rem);
-}
-
-.submit-loc:hover{
-  transition: color 0.2s;
-  color: var(--bright-blue);
-  cursor: pointer;
-}
-
-.submit-form{
-  background-color: var(--mid-blue);
-  color: white;
-}
-
-.submit-form:hover{
-  transition: background-color 0.2s;
-  background-color: var(--bright-blue);
-  cursor: pointer;
-}
 
 
 
