@@ -1,49 +1,173 @@
+:root{
+  --light-grey: #f5fbfc;
+  --light-blue: #e6f5fa;
+  --mid-blue: #8ebfd1;
+  --bright-blue: #38a7cf;
+  --aqua-grey: #a4afb3;
+  --coral-red: #f55f6b;
+  --dark-grey: #242423;
+}
+
 /*-- Body Reset --*/
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  color: #616971;
+  background-color: var(--light-blue) !important;
 }
 
-/*============= TOP BAR HEADER =============*/
+/*=============Login Page ==============*/
 
-
-
-/*============= NAVIGATION =============*/
-
-
-
-/*============= CAROUSEL =============*/
-
-
-
-/*---Change Carousel Transition Speed --*/
-
-
-/*-- Carousel Content --*/
-
-
-
-/*===== FIXED BACKGROUND IMG =====*/
-
-.fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
+.left {
+  left: 0;
+  background-color: var(--mid-blue);
+}
 
-/*-- Emoji Navbar --*/
+.right {
+  right: 0;
+  background-color: var(--light-blue);
+  ;
+}
 
+.image{
+  margin-top: 0;
+  padding-top:0;
+  height: 200px;
+  width: 100%;
+  height: 100%;
+}
+.bot-left{
+  position: absolute;
+  top: calc(100% - 3.5rem - 30px);
+  left: 0%;
+  margin-left: 30px;
+  font-size: 3.5rem;
+}
 
+.mr-4, .mx-4 {
+  margin-right: 2rem !important;
+}
 
-/*============= FOOTER =============*/
+.form-container{
+  width: 20rem;
+  position: absolute;
+  top: 47%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
 
+.btn:hover,
+.btn:active{
+  border-bottom: 2px solid var(--mid-blue);
+  border-radius: 0;
+  /* font-size: 2rem; */
+  color: var(--mid-blue);
+  outline: none;
+  box-shadow: none;
+}
 
+.btn-modern{
+  border-radius: 0;
+  font-size: 2rem;
+  border-bottom: 2px solid var(--light-blue);
+  color: var(--aqua-grey);
+}
 
-/*============= SOCKET =============*/
+.btn-modern-signup{
+  border-bottom: 2px solid var(--mid-blue);
+  border-radius: 0;
+  font-size: 2rem;
+  color: var(--mid-blue);
+}
 
+.btn-modern-login{
+  border-bottom: 2px solid var(--mid-blue);
+  border-radius: 0;
+  font-size: 2rem;
+  color: var(--mid-blue);
+}
 
+.form-container .btn{
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
 
-/*============= MEDIA QUERIES =============*/
+.login-form{
+  margin-top: .6rem;
+  margin-bottom: .5rem;
+  width: 17rem;
+  border: none;
+  height: 2.2rem;
+  padding-left: .5rem;
+}
+
+.submit-loc{
+  color: var(--mid-blue);
+  margin-top: 10px;
+  margin-left: calc(100% - 5.5rem);
+}
+
+.submit-loc:hover{
+  transition: color 0.2s;
+  color: var(--bright-blue);
+  cursor: pointer;
+}
+
+.submit-form{
+  background-color: var(--mid-blue);
+  color: white;
+}
+
+.submit-form:hover{
+  transition: background-color 0.2s;
+  background-color: var(--bright-blue);
+  cursor: pointer;
+}
+
+.account-method{
+  margin-bottom: 10px;
+}
+
+.error-msg{
+  margin: 0px;
+  color: var(--coral-red);
+}
+
+.list{
+  min-width: 300px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.list-entry{
+  /*border: 1px solid var(--light-grey);*/
+  padding: 10px;
+  background-color: var(--light-grey);
+  margin: 10px 0px;
+}
+
+.list-item{
+  /*font-weight: bold;*/
+}
+
+.list-footprint{
+  color: var(--bright-blue);
+}
+
+.close{
+  font-weight: lighter;
+}
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
@@ -52,6 +176,33 @@ body {
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
 
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar{
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing:.1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+  z-index: 1;
+}
+
+.nav-item {
+  padding:.5rem;
+}
+
+.nav-link{
+  color: #5b5555 !important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #4981b3 !important;
 }
 
 
