@@ -135,39 +135,7 @@ body {
   cursor: pointer;
 }
 
-.account-method{
-  margin-bottom: 10px;
-}
 
-.error-msg{
-  margin: 0px;
-  color: var(--coral-red);
-}
-
-.list{
-  min-width: 300px;
-  width: 80%;
-  max-width: 800px;
-}
-
-.list-entry{
-  /*border: 1px solid var(--light-grey);*/
-  padding: 10px;
-  background-color: var(--light-grey);
-  margin: 10px 0px;
-}
-
-.list-item{
-  /*font-weight: bold;*/
-}
-
-.list-footprint{
-  color: var(--bright-blue);
-}
-
-.close{
-  font-weight: lighter;
-}
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
@@ -178,32 +146,7 @@ body {
 
 }
 
-/*============= NAVIGATION =============*/
 
-.navbar-brand img {
-  height: 3rem;
-}
-
-.navbar{
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing:.1rem;
-  box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
-  z-index: 1;
-}
-
-.nav-item {
-  padding:.5rem;
-}
-
-.nav-link{
-  color: #5b5555 !important;
-}
-
-.nav-link.active,
-.nav-link:hover{
-  color: #4981b3 !important;
-}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
