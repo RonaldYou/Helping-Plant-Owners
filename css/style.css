@@ -103,6 +103,14 @@ body {
   padding-right: 0.2rem;
 }
 
+.file-select{
+  width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
 
 
 
