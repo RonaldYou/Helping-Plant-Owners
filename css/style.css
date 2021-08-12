@@ -51,7 +51,7 @@ body {
 }
 
 .form-container{
-  width: 20rem;
+  width: 40rem;
   position: absolute;
   top: 47%;
   left: 52%;
@@ -91,11 +91,6 @@ body {
   color: var(--mid-blue);
 }
 
-.form-container .btn{
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
-
 .file-select{
   width: 640px; /* Can be in percentage also. */
     height: auto;
@@ -104,9 +99,7 @@ body {
     position: relative;
 }
 
-.form-outline{
-  width: 100%
-}
+
 
 
 
