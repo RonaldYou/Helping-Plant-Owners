@@ -1,8 +1,8 @@
 :root{
   --light-grey: #f5fbfc;
-  --light-blue: #e6f5fa;
-  --mid-blue: #8ebfd1;
-  --bright-blue: #58da6e;
+  --light-green: #ebfae6;
+  --mid-green: #7bd361;
+  --bright-green: #58da6e;
   --aqua-grey: #a4afb3;
   --coral-red: #f55f6b;
   --dark-grey: #242423;
@@ -29,12 +29,12 @@ body {
 
 .left {
   left: 0;
-  background-color: var(--mid-blue);
+  background-color: var(--mid-green);
 }
 
 .right {
   right: 0;
-  background-color: var(--light-blue);
+  background-color: var(--light-green);
   ;
 }
 
@@ -62,10 +62,10 @@ body {
 
 .btn:hover,
 .btn:active{
-  border-bottom: 2px solid var(--mid-blue);
+  border-bottom: 2px solid var(--mid-green);
   border-radius: 0;
   /* font-size: 2rem; */
-  color: var(--mid-blue);
+  color: var(--mid-green);
   outline: none;
   box-shadow: none;
 }
