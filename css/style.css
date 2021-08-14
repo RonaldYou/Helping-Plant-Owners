@@ -35,7 +35,6 @@ body {
 .right {
   right: 0;
   background-color: var(--light-green);
-  ;
 }
 
 .bot-left{
@@ -101,19 +100,21 @@ body {
 
 .box-container{
   margin: auto;
-  margin-top: 20%;
+  margin-top: 35%;
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 42px;
   border: 4px solid #58da6e;
   padding: 0px 10px;
   border-radius: 50px;
+  
 }
 
 .elements-container{
   width: 100%;
   height: 100%;
   vertical-align: middle;
+  
 }
 
 .search{
@@ -123,6 +124,7 @@ body {
   padding: 0px 5px;
   border-radius: 50px;
   font-size: 18px;
+  background-color: var(--light-green);
 }
 
 .search:focus{
