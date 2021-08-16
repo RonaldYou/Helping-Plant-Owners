@@ -110,7 +110,14 @@ body {
 }
 
 .file-container{
-  
+  margin: auto;
+  margin-top: 35%;
+  position: relative;
+  width: 350px;
+  height: 46px;
+  border: 4px solid #58da6e;
+  padding: 0px 10px;
+  border-radius: 50px;
 }
 
 
