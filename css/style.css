@@ -127,8 +127,8 @@ body{
 
 .drag-area{
   border: 2px dashed #fff;
-  height: 250px;
-  width: 350px;
+  height: 300px;
+  width: 400px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -151,7 +151,23 @@ body{
   font-size: 17px;
   font-weight: 500;
   color: #ebfae6;
+  margin: 5px 0 5px 0;
 }
+
+.drag-area button{
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #ebfae6;
+  color: var(--mid-green);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
 
 
 
