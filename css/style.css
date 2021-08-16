@@ -125,6 +125,33 @@ body{
   background: var(--mid-green);
 }
 
+.drag-area{
+  border: 2px dashed #fff;
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.drag-area .icon{
+  font-size: 85px;
+  color: #ebfae6;
+}
+
+.drag-area header{
+  font-size: 23px;
+  font-weight: 500;
+  color: #ebfae6;
+}
+
+.drag-area span{
+  font-size: 17px;
+  font-weight: 500;
+  color: #ebfae6;
+}
 
 
 
