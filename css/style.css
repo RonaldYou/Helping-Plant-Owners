@@ -136,6 +136,11 @@ body{
   flex-direction: column;
 }
 
+.drag-area.active{
+  border: 2px solid #fff;
+
+}
+
 .drag-area .icon{
   font-size: 85px;
   color: #ebfae6;
@@ -165,6 +170,8 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
+
+
 
 
 
