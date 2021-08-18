@@ -67,32 +67,21 @@ body {
   box-shadow: none;
 }
 
-
-.file-select{
-  width: 640px; /* Can be in percentage also. */
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-}
-
 .box-container{
   margin: auto;
-  margin-top: 35%;
+  margin-top: 38%;
   position: relative;
   width: 350px;
   height: 46px;
   border: 4px solid #58da6e;
   padding: 0px 10px;
   border-radius: 50px;
-  
 }
 
 .elements-container{
   width: 100%;
   height: 100%;
   vertical-align: middle;
-  
 }
 
 .search{
@@ -110,9 +99,9 @@ body {
 }
 
 .file-container{
-  margin: auto;
-  margin-top: 35%;
+  margin-top: 30%;
   position: relative;
+  margin-left: 27%;
   width: 350px;
   height: 46px;
 }
@@ -177,13 +166,6 @@ body{
   object-fit: cover;
   border-radius: 5px;
 }
-
-
-
-
-
-
-
 
 
 
