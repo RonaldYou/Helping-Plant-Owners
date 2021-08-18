@@ -6,6 +6,16 @@ input = dropArea.querySelector("input");
 
 let file; 
 
+button.onclick = ()=>{
+    input.click();
+}
+
+input.addEventListener("change", function(){
+    file = this.files[0];
+    dropArea.classList.add("active");
+    showFile();
+})
+
 //if user drag file over box
 dropArea.addEventListener("dragover", ()=>{
     event.preventDefault();
@@ -26,6 +36,10 @@ dropArea.addEventListener("drop", (event)=>{
     event.preventDefault(); //preventing from default behaviour of opening file in new tab
     //getting user select file and [0] this means if user select multiple files then we'll select only the first one
     file = event.dataTransfer.files[0];
+    showFile();
+});
+
+function showFile(){
     let fileType = file.type;
 
     let validExtensions = ["image/jpeg", "image/png", "image/jpg"];
@@ -42,4 +56,4 @@ dropArea.addEventListener("drop", (event)=>{
         alert("This is not an Image File!");
         dropArea.classList.remove("active");
     }
-});
+}
