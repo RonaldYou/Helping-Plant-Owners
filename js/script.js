@@ -1,5 +1,8 @@
 //selecting all required elments
-const dropArea = document.querySelector(".drag-area");
+const dropArea = document.querySelector(".drag-area"),
+dragText = dropArea.querySelector("header"),
+button = dropArea.querySelector("button"),
+input = dropArea.querySelector("input");
 
 let file; 
 
@@ -8,12 +11,14 @@ dropArea.addEventListener("dragover", ()=>{
     event.preventDefault();
     console.log("File is over DragArea");
     dropArea.classList.add("active");
+    dragText.textContent = "Release to Upload File";
 })
 
 //if user leave drag file from box
 dropArea.addEventListener("dragleave", ()=>{
     console.log("File is outside DragArea");
     dropArea.classList.remove("active");
+    dragText.textContent = "Drag & Drop to Upload File";
 })
 
 //if user drop file into box
