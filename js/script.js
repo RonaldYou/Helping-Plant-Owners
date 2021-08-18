@@ -5,6 +5,7 @@ let file;
 
 //if user drag file over box
 dropArea.addEventListener("dragover", ()=>{
+    event.preventDefault();
     console.log("File is over DragArea");
     dropArea.classList.add("active");
 })
@@ -27,9 +28,8 @@ dropArea.addEventListener("drop", (event)=>{
         let fileReader = new FileReader(); // creating new filereader object
         fileReader.onload = ()=>{
             let fileURL = fileReader.result; // passing user file source in fileURL variable
-            console.log(fileURL);
             let imgTag = `<img src="${fileURL}" alt="">`; //creating an img tag and passing user selected file source inside src attribute
-            dropArea.innerHTML = imgTag; //adding that created img tag inside dropArea container
+            dropArea.innerHTML = imgTag;
         }
         fileReader.readAsDataURL(file);
     }
